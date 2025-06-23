@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dropdown{
+  display: inline-block;
+}
+
+.links{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1{
+  margin: 20px;
+}
+
+.links a{
+  text-decoration: none;
+padding: 10px;
+background-color: antiquewhite;
+width: 100%;
+border-bottom: 1px solid black;
+cursor: pointer;
+}
+
+.hidden{
+  display: none;
+}
+
+.btn{
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  padding: 5px;
+  background-color: rgba(242, 242, 20, 0.92);
+  border: none;
+  width: 100px;
+  aspect-ratio: 2/1;
+  outline: none;
+}
